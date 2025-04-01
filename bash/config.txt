@@ -1,0 +1,16 @@
+# To store in an factory definition repo
+
+# Organization and project configuration
+organization=https://dev.azure.com/my-org
+project=my-project
+
+# Tenant ID for production pipelines
+prod_tenant_id=12345-tenant-id
+
+# List of repositories
+repositories=repo1,repo2,repo3
+
+# Pipeline provisioning settings for each repository
+provision_pipelines_repo1=yes
+provision_pipelines_repo2=no
+provision_pipelines_repo3=yes
